@@ -9,8 +9,8 @@ const dashboardRoutes: RouteRecordRaw[] = [
     children: [
       {
         path: "",
-        name: "Home",
-        component: () => import("@/pages/dashboard/Home.vue"),
+        name: "Overview",
+        component: () => import("@/pages/dashboard/Overview/View.vue"),
       },
     ],
   },

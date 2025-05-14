@@ -10,7 +10,7 @@ import AppSidebar from "./AppSidebar.vue";
       <div class="flex items-center h-16 px-4 border-b">
         <SidebarTrigger />
       </div>
-      <div class="flex-1 p-6 overflow-auto">
+      <div class="flex-1 p-6">
         <router-view />
       </div>
     </main>
